@@ -1,0 +1,137 @@
+{
+  "basics": {
+    "name": "Sean Cuevo",
+    "label": "Developer",
+    "picture": "http://s.gravatar.com/avatar/f96fc33985bf6d513d7b2e53c0642d5e?s=150",
+    "summary": "I am a man of many hats. In no particular order, I am a teacher, a freelance writer, an entrepreneur, a web developer, and technically an accountant. I also like the Oxford comma, though I have been told to stop. I work primarily on the Salesforce platform, but I am eager to learn about all aspects of programming in an effort to develop tools and products that make people's lives easier and more productive.",
+    "email": "sean.cuevo@gmail.com",
+    "phone": "845.480.2972",
+    "website": "http://www.socalledprogrammer.com",
+    "location": {
+      "address": "12617 Julian Street",
+      "postalCode": "80020",
+      "city": "Broomfield",
+      "countryCode": "US",
+      "region": "Colorado"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "seanpat09",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Prologis",
+      "position": "Salesforce Lead Developer",
+      "website": "http://www.prologis.com",
+      "startDate": "2015-02-09",
+      "summary": "Prologis is the leading owner, operator and developer of industrial real estate, focused on global and regional markets across the Americas, Europe and Asia.",
+      "highlights": [
+        "Led the development of new Salesforce features to facilitate the lease analysis and approval process",
+        "Developed and managed internal version control process",
+        "Helped create integrations with other systems in the Prologis ecosystem"
+      ]
+    },
+    {
+      "company": "Apto",
+      "position": "Lead Developer",
+      "website": "http://www.aptotude.com",
+      "startDate": "2014-06-01",
+      "endDate": "2015-02-06",
+      "summary": "Apto is a Commercial Real Estate CRM built on the Salesforce platform",
+      "highlights": [
+        "Architected and implemented features including third party listing service integrations, wizards, and commission calculation",
+        "Managed deployments for major releases and patches",
+        "Led code review and outlined best practices for the code base"
+      ]
+    },
+    {
+      "company": "Bluewolf",
+      "position": "Developer",
+      "website": "http://www.bluewolf.com",
+      "startDate": "2012-10-01",
+      "endDate": "2014-06-01",
+      "summary": "Bluewolf provides strategic consulting, implementation, training and cloud innovation services, focused primarily on the Salesforce platform",
+      "highlights": [
+        "Designed, scoped, and implemented agile solutions on the Saleforce platform using TDD",
+        "Held daily scrums to update clients on project progress",
+        "Led internal discussions/book club on best practices, new technologies and career development"
+      ]
+
+    },
+    {
+      "company": "ventureangel, Inc.",
+      "position": "Co-Founder",
+      "startDate": "2011-01-01",
+      "endDate": "2012-09-01",
+      "summary": "ventureangel seeks to improve the way that entrepreneurs connect with investors by providing an easy to use UI for building presentations and searching through proposals",
+      "highlights": [
+        "Maintained the back-end of the website using Ruby on Rails",
+        "Managed accounting books and in charge of legal compliance with State and Federal Regulations "
+      ]
+    },
+    {
+      "company": "Applerouth Tutoring Services",
+      "position": "Tutor",
+      "startDate": "2008-09-01",
+      "endDate": "2012-09-01",
+      "summary": "Professional tutoring services for high school and colllege students focused primarily on standardized testing preparation.",
+      "highlights": [
+        "Tutored high school students individually and in groups of 5 to 20 students in SAT test taking skills and strategies",
+        "Documented student improvement and coordinated with students’ parents to develop programs catered to different learning styles"
+      ]
+    },
+    {
+      "company": "USDA, Grain Inspection, Packers and Stockyards Administration",
+      "position": "Auditor",
+      "startDate": "2010-05-01",
+      "endDate": "2011-12-01",
+      "summary": "The U.S. Department of Agriculture's agency that facilitates the marketing of livestock, poultry, meat, cereals, oilseeds, and related agricultural products, and promotes fair and competitive trading practices for the overall benefit of consumers and American agriculture.",
+      "highlights": [
+        "Conducted investigations of entities under the jurisdiction of the Packers and Stockyard Act",
+        "Audited financial records to determine compliance of custodial accounts, financial solvency, and timely payment"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Kennesaw State University",
+      "area": "Accounting",
+      "studyType": "Masters of Accountancy",
+      "startDate": "2009-08-01",
+      "endDate": "2011-05-01"
+    },
+    {
+      "institution": "University of Georgia",
+      "area": "Finance",
+      "studyType": "Bachelor of Business Administration",
+      "startDate": "2005-08-01",
+      "endDate": "2009-05-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages/Frameworks",
+      "keywords": [
+        "Apex",
+        "HTML",
+        "CSS",
+        "Javascript",
+        "jQuery",
+        "Angular.js",
+        "Ruby",
+        "Ruby on Rails"
+      ]
+    },
+    {
+      "name": "Version Control",
+      "keywords": [
+        "svn",
+        "git/github"
+      ]
+    }
+  ]
+}
