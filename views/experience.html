@@ -1,25 +1,25 @@
 <div class="row" ng-controller="ExperienceCtrl">
     <div class="container">
-    	<div class="row experience" ng-repeat="experience in resume.work">
-    		<div class="col-xs-12">
-    			<span class="job-title">{{experience.position}}</span> | 
-    			<a ng-href="{{experience.website}}" target="_blank" ng-if="experience.website">{{experience.company}}</a>
-    			<span ng-if="!experience.website">{{experience.company}}</span> 
-    		</div>
-    		<div class="col-xs-12">
-    			<span class="job-duration">
-    				<i class="fa fa-calendar"></i>&nbsp;
-    				{{experience.startDate | date : 'mediumDate'}} - {{(experience.endDate | date : 'mediumDate') || 'Present'}}
-    			</span>
-    		</div>
-    		<div class="col-xs-12">
-    			<span class="job-summary">{{experience.summary}}</span>
-    		</div>
-    		<div class="col-xs-12">
-    			<ul>
-    				<li ng-repeat="highlight in experience.highlights">{{highlight}}</li>
-    			</ul>
-    		</div>
-    	</div>
+        <div class="row experience" ng-repeat="experience in resume.work">
+            <div class="col-xs-12">
+                <span class="job-title">{{experience.position}}</span> | 
+                <a ng-href="{{experience.website}}" target="_blank" ng-if="experience.website">{{experience.company}}</a>
+                <span ng-if="!experience.website">{{experience.company}}</span> 
+            </div>
+            <div class="col-xs-12">
+                <span class="job-duration">
+                    <i class="fa fa-calendar"></i>&nbsp;
+                    {{experience.startDate | date : 'mediumDate'}} - {{(experience.endDate | date : 'mediumDate') || 'Present'}}
+                </span>
+            </div>
+            <div class="col-xs-12">
+                <span class="job-summary">{{experience.summary}}</span>
+            </div>
+            <div class="col-xs-12">
+                <ul>
+                    <li ng-repeat="highlight in experience.highlights">{{highlight}}</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
