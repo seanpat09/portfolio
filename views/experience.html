@@ -1,3 +1,19 @@
 <div class="row" ng-controller="ExperienceCtrl">
-    {{resume | json }}
+    <div class="container">
+    	<div class="row" ng-repeat="experience in resume.work">
+    		<div class="col-xs-12">
+    			<span class="job-title">{{experience.position}}</span> | 
+    			<a ng-href="{{experience.website}}" target="_blank" ng-if="experience.website">{{experience.company}}</a>
+    			<span ng-if="!experience.website">{{experience.company}}</span> 
+    		</div>
+    		<div class="col-xs-12">
+    			{{experience.summary}}
+    		</div>
+    		<div class="col-xs-12">
+    			<ul>
+    				<li ng-repeat="highlight in experience.highlights">{{highlight}}</li>
+    			</ul>
+    		</div>
+    	</div>
+    </div>
 </div>
