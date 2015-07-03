@@ -8,11 +8,6 @@
               url: "/experience",
               templateUrl: "views/experience.html"
             })
-            
-            .state('github', {
-              url: "/github",
-              templateUrl: "views/github.html"
-            })
     });
     
 }(angular));
